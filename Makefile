@@ -1,2 +1,2 @@
 test:
-	./contacted-stations.sh  ~/Downloads/*adi
+	./contacted-stations.sh  ~/Downloads/lotwreport.adi
