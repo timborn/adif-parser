@@ -6,5 +6,7 @@ so we can access them as needed.
 
 callsign -> grid
 grid -> county
+grid -> country
+grid -> province 
 callsign -> country
 callsign -> state
