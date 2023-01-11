@@ -15,3 +15,6 @@ if [ $# -ne 1 ] ; then
 fi
 
 IFILE=$1
+
+./confirmed-states.sh $IFILE > ListOfConfirmedStates
+./whats-missing.sh ListOfConfirmedStates
