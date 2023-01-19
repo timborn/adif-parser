@@ -15,6 +15,10 @@ if [ $# -ne 1 ] ; then
 fi
 
 IFILE=$1
+TMP=`mktemp`  # was: ListOfConfirmedStates
 
-./confirmed-states.sh $IFILE > ListOfConfirmedStates
-./whats-missing.sh ListOfConfirmedStates
+./confirmed-states.sh $IFILE > $TMP
+./whats-missing.sh $TMP
+
+# clean up my mess
+rm $TMP
