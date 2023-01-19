@@ -1,6 +1,8 @@
+#!/usr/local/Cellar/bash/5.2.15/bin/bash
 # list of prefix to country from wikipedia
 # search longest prefix first to find most precise match
 # TODO: toupper on input
+# NB mac stopped updating bash around version 3.x before associate arrays.  Use brew.
 
 if [ $# -ne 1 ] ; then
 	echo "Usage: $0 <prefix>"
@@ -191,7 +193,8 @@ mapping[H3]="Panama"
 mapping[H4]="Solomon Islands"
 mapping[H6]="Nicaragua"
 mapping[H7]="Nicaragua"
-mapping[H8–H9]="Panama"
+mapping[H8]="Panama"
+mapping[H9]="Panama"
 mapping[I]="Italy"
 mapping[JA]="Japan"
 mapping[JB]="Japan"
