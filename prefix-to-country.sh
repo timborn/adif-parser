@@ -10,7 +10,7 @@ if [ $# -ne 1 ] ; then
 fi
 # NB we use recursion 
 ORIGINAL=$1
-PREFIX=$1
+PREFIX=${1^^}	# toupper
 
 declare -A mapping
 
