@@ -594,6 +594,8 @@ mapping[3DW]="Fiji[Note 4]"
 mapping[3DX]="Fiji[Note 4]"
 mapping[3DY]="Fiji[Note 4]"
 mapping[3DZ]="Fiji[Note 4]"
+# TDB 230206 - https://www.slow-journalism.com/from-the-archive/the-battle-of-bir-tawil
+mapping[3D2]="Bir Tawil - unrecognized country"
 mapping[3EF]="Panama"
 mapping[3F]="Panama"
 mapping[3G]="Chile"
